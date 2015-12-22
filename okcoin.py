@@ -100,9 +100,6 @@ class Application(fix.Application):
         return liveTradesRequest
 
 def main(config_file):
-    print '0'
-    print '{}, len(queue): {}'.format(0, queue.qsize())
-    time.sleep(5)
     try:
         settings = fix.SessionSettings(config_file)
         print '1'
