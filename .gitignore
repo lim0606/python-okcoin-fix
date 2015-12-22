@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+*.swo
+my_api.py
+log
+log/
+store
+store/
+*.bak
+ssl
+ssl/
+okcoin.cfg

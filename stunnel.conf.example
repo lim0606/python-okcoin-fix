@@ -1,0 +1,6 @@
+client = yes
+cert = /etc/stunnel/stunnel.pem
+
+[OKSERVER]
+accept = <your id address>:9880
+connect = api.okcoin.cn:9880

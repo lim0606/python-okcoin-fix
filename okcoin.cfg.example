@@ -1,0 +1,24 @@
+[DEFAULT]
+ConnectionType=initiator
+ReconnectInterval=60
+FileStorePath=store
+FileLogPath=log
+StartTime=00:00:00
+EndTime=00:00:00
+UseDataDictionary=Y
+DataDictionary=spec/FIX44.xml
+ValidateUserDefinedFields=N
+ResetOnLogout=Y
+ResetOnLogon=Y
+ReconnectInterval=5
+UseDataDictionary=Y
+ResetOnDisconnect=Y
+ResetOnError=Y
+
+[SESSION]
+BeginString=FIX.4.4
+SocketConnectPort=9880
+SocketConnectHost=Your ip address here
+SenderCompID=SenderCompID user defined client name(e.g. generated using UUID)
+TargetCompID=OKSERVER
+HeartBtInt=30
