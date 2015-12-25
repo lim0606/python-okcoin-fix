@@ -45,6 +45,7 @@ This is how I configured.
 6. Make a configuration file of `stunnel`
   1. Stunnel configures itself using a file named "stunnel.conf" which by default is located in "/etc/stunnel".
      Create a "stunnel.conf" file in the "/etc/stunnel" directory:
+
      ```Shell
      sudo vim /etc/stunnel/stunnel.conf
      ```
