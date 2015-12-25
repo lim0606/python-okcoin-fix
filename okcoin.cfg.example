@@ -1,6 +1,6 @@
 [DEFAULT]
 ConnectionType=initiator
-ReconnectInterval=60
+ReconnectInterval=5
 FileStorePath=store
 FileLogPath=log
 StartTime=00:00:00
@@ -10,8 +10,6 @@ DataDictionary=spec/FIX44.xml
 ValidateUserDefinedFields=N
 ResetOnLogout=Y
 ResetOnLogon=Y
-ReconnectInterval=5
-UseDataDictionary=Y
 ResetOnDisconnect=Y
 ResetOnError=Y
 
