@@ -24,7 +24,7 @@ This is how I configured.
   ```
 
 4. Enabling `stunnel`
-  1. Open `stunnel`''s setting file
+  1. Open `stunnel`'s setting file
    ```Shell
    sudo vim /etc/default/stunnel4
    ```
