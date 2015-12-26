@@ -44,7 +44,6 @@ Because of that, the configuration file for quickfix api for using OKCoin should
   ```Shell
   cp my_api.py.example my_api.py
   ```
-
   2. Change the below lines with your api keys
   ```
   api_key='your api key here'
