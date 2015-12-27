@@ -10,11 +10,7 @@ Because of that, the configuration file for quickfix api for using OKCoin should
 
 # Prerequisites
   1. `quickfix`
-  2. ssh or ssl tunneling
-    1. `openssh-server`
-    2. `openssl` and `stunnel`
-  
-  **Note:** You can choose either ssh or ssl tunneling
+  2. ssl tunneling (`openssl` and `stunnel`)
 
 # Install prerequisites
 1. Install `quickfix` python api
@@ -22,13 +18,7 @@ Because of that, the configuration file for quickfix api for using OKCoin should
   pip install quickfix
   ```
 
-2. Install ssh or ssl tunneling
-  1. `openssh-server`
-  ```Shell
-  sudo apt-get install openssh-server
-  ssh -L 9880:api.okcoin.cn:9880 username@<your ip address>
-  ```
-  2. Install `openssl` and `stunnel`
+2. Install `openssl` and `stunnel`
   
   See https://github.com/lim0606/python-okcoin-fix/tree/master/docs/stunnel
 
@@ -66,7 +56,7 @@ Because of that, the configuration file for quickfix api for using OKCoin should
   
   **Note:** So this application communicates with OKCoin server via tunneling installed as prerequisites. That is why this setting is different from C# or Java example in OKCoin repo. 
   
-  **Note:** We used `<your ip address>` in either `ssh`'s argument or `stunnel`'s configuration file 
+  **Note:** We used `<your ip address>` in `stunnel`'s configuration file 
 
   4. Change the line with user defined client name (e.g. generated using UUID)
   ```
